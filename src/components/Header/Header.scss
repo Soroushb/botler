@@ -4,9 +4,19 @@
     flex: 1;
    // justify-content: flex-end;
     flex-wrap: wrap;
-    width: 80%;
-  //  position: fixed;
-    
+    width: 100%;
+   // position: fixed;
+    z-index: 1;
+}
+
+.nav-content{
+    width: 900px;
+    margin: 0px auto;
+    height: 90px;
+    display: flex;
+    direction: ltr;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -16,9 +26,15 @@
 
 }
 
+#language {
+    margin-left: 40px;
+}
+
 .nav-items{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: row;
+    min-width: 70px;
+        cursor: pointer;
 }

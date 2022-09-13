@@ -6,12 +6,14 @@ const Header = () => {
 
     return(
     <div className="navbar_container">
+        <div className="nav-content">
         <p className="logo">
             <img src={images.logo} alt="logo" width="150px"/>
         </p>
         <div className="nav-items">
-        <h3>Login</h3>
-        <p>EN | FR</p>
+        <p>Login</p>
+        <p id="language">EN | FR</p>
+        </div>
         </div>
 
     </div>
