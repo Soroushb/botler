@@ -33,12 +33,14 @@
     border-radius: 50px;
     background-color:darkblue;
     color: white;
+    cursor: pointer;
 }
 
 #button2{
     border-radius: 50px;
     background-color: aqua;
     color: white;
+    cursor: pointer;
 
 }
 
@@ -54,4 +56,15 @@
 
 .paragraph{
     width: 60%;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+   // justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+   // position: fixed;
+    z-index: 1;
 }

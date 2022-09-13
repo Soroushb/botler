@@ -7,7 +7,7 @@ import { images } from '../../constants'
 const Citizen = () => {
 
     return(
-    <>
+    <div className="body-container">
     <div className="title-container">
     <div className="title-contents">
     <h1>Botler For Citizens</h1>
@@ -31,7 +31,8 @@ const Citizen = () => {
         <p className="paragraph">Armed with a meaningful understanding of the issue, users are empowered to seek justice and pursue their legal rights. All in strict confidence. Botler for Citizens is funded in part under the Department of Justice Canada’s $50 Million commitment to address sexual harassment in the workplace.</p>
         </div>
     </div>
-    </>
+    </div>
+  
     )
 
 }

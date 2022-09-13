@@ -1,3 +1,38 @@
 .footer-container{
     background-color: blue;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-options{
+    color: cadetblue;
+    cursor: pointer;
+    
+}
+
+.option{
+    &:hover {
+        color: white;
+      }
+}
+
+.newsletter{
+    display: flex;
+    margin-left: 50px;
+    width: 400px;
+    flex-direction: column;
+}
+
+.news-paragraph{
+    color: aliceblue;
+}
+
+.links{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
